@@ -16,7 +16,6 @@ or
 ```
 js :
 ```javascript
-<script src="angular.min.js"></script>
 var app = angular.module('exampleApp', ['johayo.clock']);
 ```
 css같은 경우 직접 수정해도 됩니다. css 파일을 열어보면 이해가 되실꺼라 생각됩니다.
