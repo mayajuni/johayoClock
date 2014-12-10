@@ -1,5 +1,5 @@
 #Johayo clock
-### <a href='http://johayo.com' target='_black'>Go to Demo</a>
+### <a href='http://johayo.com/johayoClock/index.html' target='_black'>Go to Demo</a>
 
 ##설명
 먼가 한번 모듈을 만들어 보겠다는 생각에 한번 만들어봤습니다. directive만 사용한 모듈이지만 그래도 첫 모듈인 만큼 만족합니다.
@@ -15,7 +15,7 @@ or
 <div johayo-clock></div>
 ```
 js :
-```javascipt
+```javascript
 <script src="angular.min.js"></script>
 var app = angular.module('exampleApp', ['johayo.clock']);
 ```
