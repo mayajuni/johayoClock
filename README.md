@@ -7,7 +7,7 @@
 ###Usage
 HTML:
 ```html
-<link rel="stylesheet" href="clock,min.css"/>
+<link rel="stylesheet" href="clock.min.css"/>
 <script src="johayo-clock.min.js"></script> 
 
 <johayo-clock></johayo-clock>
