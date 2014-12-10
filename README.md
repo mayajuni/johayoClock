@@ -15,7 +15,7 @@ or
 <div johayo-clock></div>
 ```
 js :
-```javascipt
+```javascript
 <script src="angular.min.js"></script>
 var app = angular.module('exampleApp', ['johayo.clock']);
 ```
