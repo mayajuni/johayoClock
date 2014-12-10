@@ -26,9 +26,21 @@
                         var second = date.getSeconds() * 6;
                         var minute = date.getMinutes() * 6 + second / 60;
                         var hour = ((date.getHours() % 12) / 12) * 360 + 90 + minute / 12;
-                        scope.moveHour = {'transform' : 'rotate('+hour+'deg)'};
-                        scope.moveMinute = {'transform' : 'rotate('+minute+'deg)'};
-                        scope.moveSecond = {'transform' : 'rotate('+second+'deg)'};
+                        scope.moveHour = {
+                            'transform' : 'rotate('+hour+'deg)',
+                            '-ms-transform' : 'rotate('+hour+'deg)',
+                            '-webkit-transform' : 'rotate('+hour+'deg)'
+                        };
+                        scope.moveMinute = {
+                            'transform' : 'rotate('+minute+'deg)',
+                            '-ms-transform' : 'rotate('+minute+'deg)',
+                            '-webkit-transform' : 'rotate('+minute+'deg)'
+                        };
+                        scope.moveSecond = {
+                            'transform' : 'rotate('+second+'deg)',
+                            '-ms-transform' : 'rotate('+second+'deg)',
+                            '-webkit-transform' : 'rotate('+second+'deg)'
+                        };
                         scope.nowDate = date;
                         $timeout(updateTime, 1000);
                     };
