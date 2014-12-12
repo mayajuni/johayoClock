@@ -6,6 +6,8 @@
     position: relative;
     border: 8px solid #000000;
     border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
     -webkit-box-shadow: 0 1px 8px rgba(34, 34, 34, 0.3),inset 0 1px 8px rgba(34, 34, 34, 0.3);
     box-shadow: 0 1px 8px rgba(34, 34, 34, 0.3),inset 0 1px 8px rgba(34, 34, 34, 0.3);
 }
